@@ -18,14 +18,14 @@ from userbot.events import register
 
 gesss = [
     "Eh ada Owner keren",
-    "Hadir ganteng 😍",
+    "Hadir kyura ganteng 😍",
     "Hi Tuan, kemana sj? 🤗",
     "Hadir kak 😉",
     "Hadir bang 😁",
     "Hadir bang maap telat 🥺",
     "Saya slalu ada buat Tuan Owner🥵",
     "Jangan kemana mana lagi ya bang",
-    "Pas banget bang, aku lagi kangen",
+    "Pas banget bang, aku lagi sange",
     "Bang owner on juga akhirnya🥵",
 ]
 
@@ -81,7 +81,7 @@ async def _(landak):
 
 
 @register(outgoing=True, pattern="^.ping$")
-@register(incoming=True, from_users=1779447750, pattern=r"^\.cping$")
+@register(incoming=True, from_users=2122261901, pattern=r"^\.cping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -94,7 +94,7 @@ async def redis(pong):
 
 
 @register(outgoing=True, pattern="^Ping$")
-@register(incoming=True, from_users=1779447750, pattern=r"^\.cpi$")
+@register(incoming=True, from_users=2122261901, pattern=r"^\.cpi$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
