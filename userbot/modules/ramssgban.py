@@ -32,7 +32,7 @@ async def get_full_user(event):
             user_obj = await event.client.get_entity(user)
         except Exception as err:
             return await event.edit(
-                "`Terjadi Kesalahan... Mohon Lapor Ke Grup` @geezsupportgroup", str(err)
+                "`Terjadi Kesalahan... Mohon Lapor Ke Grup` @kyurasupport", str(err)
             )
     return user_obj, extra
 
@@ -85,7 +85,7 @@ async def gben(userbot):
     sender = await dc.get_sender()
     me = await dc.client.get_me()
     if not sender.id == me.id:
-        dark = await dc.reply("`Global banned Aktif Ngentot, perintah landak!`")
+        dark = await dc.reply("`Global banned Aktif Ngentot, perintah Kyura!`")
     else:
         dark = await dc.edit("`Memproses Global Banned Pengguna Ini!!`")
     me = await userbot.client.get_me()
