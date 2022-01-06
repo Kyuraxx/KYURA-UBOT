@@ -179,7 +179,7 @@ RAM_TEKS_KOSTUM = os.environ.get("RAM_TEKS_KOSTUM") or "ㅤ"
 
 # Untuk Melihat Repo
 REPO_NAME = os.environ.get("REPO_NAME") or "🗿𝐊𝐘𝐔𝐑𝐀-𝐔𝐁𝐎𝐓🗿"
-"
+
 
 # DEVS
 DEVS = (
