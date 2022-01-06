@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n             [{REPO_NAME}](https://github.com/Kyuraxp/KYURA-UBOT)\n╰✠╼━━━━━━❖━━━━━━━✠╯\n•PEMILIK         : [𝐎𝐖𝐍𝐄𝐑]({OWNER_BOT})\n•CHANNEL      : [𝐈𝐍𝐅𝐎](t.me/Kyuraprojects)\n•GROUP           : [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK})\n•INSTAGRAM  :  [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE})"
+        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n             [{REPO_NAME}](https://github.com/Kyuraxp/KYURA-UBOT)\n╰✠╼━━━━━━❖━━━━━━━✠╯\n•PEMILIK         : [𝐎𝐖𝐍𝐄𝐑]({OWNER_BOT})\n•CHANNEL      : [𝐈𝐍𝐅𝐎](t.me/Kyuraprojects)\n•GROUP           : [𝐆𝐑𝐎𝐔𝐏](t.me/kyurasupport)\n•INSTAGRAM  :  [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]()"
     )
 
 
